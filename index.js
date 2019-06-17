@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
 
 app.use('/static', express.static('static'));
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Running server on port 5000");
 })
