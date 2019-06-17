@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Nunito|Saira+Semi+Condensed|Work+Sans&display=swap');
+
+.navbar {
+    background: transparent !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: Saira Semi Condensed;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-item {
+    color: white !important;
+    font-family: Saira Semi Condensed;
+}
+
+#hero-title h1 {
+    color: white;
+    font-size: 4em;
+    font-family: Saira Semi Condensed;
+}
+
+#hero {
+    background: linear-gradient(to bottom left, blue, purple);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+#aboutus {
+    height: 100vh;
+    padding-bottom: 35vh;
+    width: 100vw;
+    background: linear-gradient(to bottom left, red, purple);
+    background-attachment: fixed;
+}
+
+p.section-descriptor {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 5vh;
+}
+
+#details {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom left, #e117fb, aqua);
+    background-attachment: fixed;
+}
+
+#schedule {
+    padding-bottom: 20vh;
+    width: 100vw;
+    background: linear-gradient(to bottom left, #e117fb, orange);
+    background-attachment: fixed;
+}
+#schedule .container {
+    padding-top: 5vh;
+}
+
+tr {
+    color: white;
+}
+
+.section-title {
+    padding-top: 15vh;
+    font-size: 5em;
+    font-family: Saira Semi Condensed;
+    width: 100vw;
+    text-align: center;
+}
+
+.black-text {
+    color: darkgrey;
+}
+
+.white-text {
+    color: white;
+}
