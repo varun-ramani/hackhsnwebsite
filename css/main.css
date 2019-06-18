@@ -1,6 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Nunito|Saira+Semi+Condensed|Work+Sans&display=swap');
-@import url('colors.css');
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed|Work+Sans&display=swap');
 
+:root {
+    --color-green: #0fff00;
+    --color-blue: #0e01ff;
+    --color-aqua: #00e7fb;
+    --color-purple: #f900ec;
+    --color-red: #ff003a;
+    --color-yellow: #fce500;
+    --color-orange: #ff9b00;
+}
 
 @media only screen and (orientation: portrait) {
     .navbar-brand {
@@ -14,6 +22,7 @@
         color: white !important;
     }
 }
+
 .navbar {
     background: transparent !important;
 }
@@ -86,6 +95,7 @@ p.section-descriptor {
     background: linear-gradient(to bottom left, var(--color-purple), var(--color-orange));
     background-attachment: fixed;
 }
+
 #schedule .container {
     padding-top: 5vh;
 }
@@ -137,7 +147,6 @@ p.section-descriptor {
     color: white;
     font-size: 1em;
 }
-
 
 tr {
     color: white;
