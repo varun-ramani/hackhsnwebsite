@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Nunito|Saira+Semi+Condensed|Work+Sans&display=swap');
+@import url('colors.css');
 
+
+@media only screen and (orientation: portrait) {
+    .navbar-brand {
+        font-size: 2.5em !important;
+    }
+    .navbar {
+        font-size: 1.8em !important;
+    }
+    .navbar-toggler-icon {
+        font-size: 2em !important;
+        color: white !important;
+    }
+}
 .navbar {
     background: transparent !important;
 }
@@ -37,7 +51,7 @@ body {
 }
 
 #hero {
-    background: linear-gradient(to bottom left, blue, purple);
+    background: linear-gradient(var(--color-blue), var(--color-purple));
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
@@ -48,7 +62,7 @@ body {
     height: 100vh;
     padding-bottom: 35vh;
     width: 100vw;
-    background: linear-gradient(to bottom left, red, purple);
+    background: linear-gradient(to bottom left, var(--color-red), var(--color-purple));
     background-attachment: fixed;
 }
 
@@ -61,22 +75,73 @@ p.section-descriptor {
 #details {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to bottom left, #e117fb, aqua);
+    background: linear-gradient(to bottom left, var(--color-purple), var(--color-aqua));
     background-attachment: fixed;
 }
 
 #schedule {
-    padding-bottom: 20vh;
+    min-height: 100vh;
+    padding-bottom: 10vh;
     width: 100vw;
-    background: linear-gradient(to bottom left, #e117fb, orange);
+    background: linear-gradient(to bottom left, var(--color-purple), var(--color-orange));
     background-attachment: fixed;
 }
 #schedule .container {
     padding-top: 5vh;
 }
 
+#faq {
+    background: linear-gradient(to bottom left, var(--color-aqua), lightgreen);
+    background-attachment: fixed;
+    padding-bottom: 10vh;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#faq .container {
+    padding-top: 5vh;
+}
+
+#faq h2 {
+    font-family: Saira Semi Condensed;
+}
+#faq p {
+    font-family: Work Sans;
+    font-size: 1.1em;
+}
+
+#ourteam {
+    background: linear-gradient(to bottom right, var(--color-orange), var(--color-purple));
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-bottom: 10vh;
+    width: 100vw;
+}
+
+#ourteam .container {
+    padding-top: 5vh;
+}
+
+.ourteam-person img {
+    height: 10em;
+    border-radius: 1000em;
+}
+
+.ourteam-person h1 {
+    padding-top: 0.5em;
+    color: white;
+    font-size: 2em;
+}
+
+.ourteam-person p {
+    color: white;
+    font-size: 1em;
+}
+
+
 tr {
     color: white;
+    font-family: Work Sans;
 }
 
 .section-title {
@@ -88,7 +153,7 @@ tr {
 }
 
 .black-text {
-    color: darkgrey;
+    color: black;
 }
 
 .white-text {

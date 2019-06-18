@@ -1,3 +1,3 @@
-particlesJS.load('particles-js', '/static/js/particles.json', () => {
+particlesJS.load('hero', '/static/js/particles.json', () => {
     console.log("Loaded particles.js");
 });
