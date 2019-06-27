@@ -10,4 +10,4 @@ function updateNavbar() {
     }
     setTimeout(updateNavbar, 30);
 }
-updateNavbar();
+// updateNavbar();

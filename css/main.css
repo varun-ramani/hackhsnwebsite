@@ -36,9 +36,8 @@
     }
 }
 
-
 #page-navbar {
-    /* background: rgba(0,0,0,0.5) !important; */
+    background: rgba(0,0,0,0.9) !important;
 }
 
 
@@ -108,12 +107,57 @@ body {
     padding-right: 0em;
     transition: background-color 0.5s, border 0.5s;
     text-decoration: none;
+    animation: signup-animation 10s infinite;
+}
+
+@keyframes signup-animation {
+    0% {
+        border: 2px solid var(--color-green);
+        color: var(--color-green);
+    }
+    11.11% {
+        border: 2px solid var(--color-blue);
+        color: var(--color-blue);
+    }
+    22.22% {
+        border: 2px solid var(--color-aqua);
+        color: var(--color-aqua);
+    }
+    33.33% {
+        border: 2px solid var(--color-purple);
+        color: var(--color-purple);
+    }
+    44.44% {
+        border: 2px solid var(--color-red);
+        color: var(--color-red);
+    }
+    55.55% {
+        border: 2px solid var(--color-yellow);
+        color: var(--color-yellow);
+    }
+    66.66% {
+        border: 2px solid var(--color-orange);
+        color: var(--color-orange);
+    }
+    77.77% {
+        border: 2px solid white;
+        color: white;
+    }
+    88.88% {
+        border: 2px solid black;
+        color: grey;
+    }
+    100% {
+        border: 2px solid var(--color-green);
+        color: var(--color-green);
+    }
 }
 
 #hero a:hover {
     background-color: #004fff;
     border: 2px solid var(--color-green);
 }
+
 @media only screen and (orientation: landscape) {
     #hero a {
         width: 30vw;

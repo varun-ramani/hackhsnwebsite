@@ -34,26 +34,32 @@
 
       .pulse-1 {
          animation: pulse 4s infinite;
+         animation-delay: 0s;
       }
 
       .pulse-2 {
-         animation: pulse 4.2s infinite;
+         animation: pulse 4s infinite;
+         animation-delay: 0.2s;
       }
 
       .pulse-3 {
-         animation: pulse 4.4s infinite;
+         animation: pulse 4s infinite;
+         animation-delay: 0.4s;
       }
 
       .pulse-4 {
-         animation: pulse 4.6s infinite;
+         animation: pulse 4s infinite;
+         animation-delay: 0.6s;
       }
 
       .pulse-5 {
-         animation: pulse 4.8s infinite;
+         animation: pulse 4s infinite;
+         animation-delay: 0.8s;
       }
 
       .pulse-6 {
-         animation: pulse 5s infinite;
+         animation: pulse 4s infinite;
+         animation-delay: 1s;
       }
   </style>
   <defs
