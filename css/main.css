@@ -101,14 +101,14 @@ body {
     font-family: Work Sans;
     color: white;
     border: 2px solid white;
-    transform: translate(-50%);
+    transform: translate(-50%) skewX(0deg);
     text-align: center;
-    padding-left: 0em;
-    padding-right: 0em;
-    transition: background-color 0.5s, border 0.5s;
+    transition: background-color 0.5s, border 0.5s, transform 0.5s;
     text-decoration: none;
     animation: signup-animation 10s infinite;
 }
+
+
 
 @keyframes signup-animation {
     0% {
@@ -154,8 +154,7 @@ body {
 }
 
 #hero a:hover {
-    background-color: #004fff;
-    border: 2px solid var(--color-green);
+    transform: translateX(-50%) skew(-10deg);
 }
 
 @media only screen and (orientation: landscape) {
