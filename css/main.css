@@ -23,6 +23,20 @@
     }
 }
 
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .navbar-brand {
+        font-size: 1.3em !important;
+    }
+    .navbar {
+        font-size: 1.8em !important;
+    }
+    .navbar-toggler-icon {
+        font-size: 1.3em !important;
+        color: white !important;
+    }
+}
+
+
 #page-navbar {
     /* background: rgba(0,0,0,0.5) !important; */
 }
@@ -71,11 +85,64 @@ body {
 }
 
 #hero {
-    background: linear-gradient(var(--color-blue), var(--color-purple));
+    /* background: linear-gradient(var(--color-blue), var(--color-purple)); */
+    background: black;
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     max-width: 100%;
+}
+
+#hero a {
+    background-color: transparent;
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    font-family: Work Sans;
+    color: white;
+    border: 2px solid white;
+    transform: translate(-50%);
+    text-align: center;
+    padding-left: 0em;
+    padding-right: 0em;
+    transition: background-color 0.5s, border 0.5s;
+    text-decoration: none;
+}
+
+#hero a:hover {
+    background-color: #004fff;
+    border: 2px solid var(--color-green);
+}
+@media only screen and (orientation: landscape) {
+    #hero a {
+        width: 30vw;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #hero a {
+        width: 80vw;
+    }
+}
+
+#hero-image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (orientation: landscape) {
+    #hero-image {
+        width: 30vw;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #hero-image {
+        width: 95vw;
+    }
 }
 
 #aboutus {

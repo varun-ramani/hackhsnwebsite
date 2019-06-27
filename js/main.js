@@ -1,5 +1,4 @@
-
-particlesJS.load("hero", "js/particles.json");
+// particlesJS.load("hero", "js/particles.json");
 
 var navbar = document.getElementById("page-navbar");
 function updateNavbar() {
