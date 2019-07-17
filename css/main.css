@@ -77,11 +77,7 @@ body {
     font-family: Saira Semi Condensed;
 }
 
-#hero-title h1 {
-    color: white;
-    font-size: 4em;
-    font-family: Saira Semi Condensed;
-}
+
 
 #hero {
     /* background: linear-gradient(var(--color-blue), var(--color-purple)); */
@@ -207,6 +203,15 @@ p.section-descriptor {
     padding-bottom: 10vh;
     background: linear-gradient(to bottom left, var(--color-purple), var(--color-aqua));
     background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#contact {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background: linear-gradient(to bottom left, var(--color-blue), black);
+    background-attachment: fixed;
+    width: 100vw;
 }
 
 #schedule {
