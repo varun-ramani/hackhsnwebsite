@@ -184,7 +184,7 @@ body {
 }
 
 #aboutus {
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 35vh;
     width: 100vw;
     background: linear-gradient(to bottom left, var(--color-red), var(--color-purple));
