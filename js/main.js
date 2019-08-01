@@ -10,4 +10,7 @@ function updateNavbar() {
     }
     setTimeout(updateNavbar, 30);
 }
+
+document.getElementById("hero").style.paddingTop = `${navbar.offsetHeight}px`;
+
 // updateNavbar();
