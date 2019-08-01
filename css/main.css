@@ -137,18 +137,16 @@ body {
     height: 100vh;
 }
 
-@media only screen and (orientation: landscape) {
-    #hero {
-        height: 100vh;
-    }
-}
-
-
-
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 767px) {
     #hero {
         min-height: 100vh;
         padding-bottom: 5vh;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    #hero {
+        height: 100vh;
     }
 }
 
@@ -284,7 +282,7 @@ p.section-descriptor {
 #details {
     width: 100vw;
     padding-bottom: 10vh;
-    background: linear-gradient(to bottom left, #f900ec, #ff9b00);
+    background: linear-gradient(to bottom left, var(--color-red), #ff9b00);
     background-attachment: fixed;
     min-height: 100vh;
 }
