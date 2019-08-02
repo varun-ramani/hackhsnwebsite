@@ -1,0 +1,20 @@
+@import url('./aboutus.css');
+@import url('./contact.css');
+@import url('./details.css');
+@import url('./faq.css');
+@import url('./ourteam.css');
+@import url('./sponsors.css');
+@import url('./schedule.css');
+
+.section-title {
+    padding-top: 15vh;
+    font-size: 4rem;
+    width: 100vw;
+    text-align: center;
+}
+
+p.section-descriptor {
+    /* color: white; */
+    font-size: 1.5em;
+    margin-top: 5vh;
+}

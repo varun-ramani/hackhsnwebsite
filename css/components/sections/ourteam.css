@@ -1,0 +1,37 @@
+#ourteam {
+    /* background: linear-gradient(to bottom left, var(--color-yellow), var(--color-green)); */
+    /* background-attachment: fixed; */
+    min-height: 70vh;
+    padding-bottom: 20vh;
+    width: 100vw;
+    background-color: var(--color-bluegrey);
+    color: var(--color-yellow);
+}
+
+#ourteam .container {
+    padding-top: 5vh;
+}
+
+.ourteam-person img {
+    transition: transform 0.6s;
+}
+
+.ourteam-person img:hover {
+    transform: scale(1.05);
+}
+
+.ourteam-person img {
+    height: auto;
+    width: 10em;
+}
+
+.ourteam-person h1 {
+    padding-top: 0.5em;
+    color: white;
+    font-size: 1.8em;
+}
+
+.ourteam-person p {
+    color: white;
+    font-size: 1em;
+}

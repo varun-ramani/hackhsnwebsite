@@ -1,0 +1,34 @@
+#faq {
+    /* background: linear-gradient(to bottom left, var(--color-orange), var(--color-yellow)); */
+    /* background-attachment: fixed; */
+    padding-bottom: 20vh;
+    min-height: 70vh;
+    width: 100vw;
+    /* border-top: 1px solid var(--color-orange); */
+    background-color: var(--color-bluegrey2);
+    color: white;
+}
+
+#faq .row div {
+    transition: transform 0.6s;
+}
+
+#faq .row div:hover {
+    transform: scale(1.05);
+}
+
+#faq .container {
+    padding-top: 5vh;
+}
+
+#faq h1 {
+    color: var(--color-orange);
+}
+
+#faq h2 {
+    color: white
+}
+#faq p {
+    font-family: Work Sans;
+    font-size: 1.1em;
+}

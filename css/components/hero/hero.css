@@ -1,0 +1,27 @@
+@import url('./herobutton.css');
+@import url('./herocontent.css');
+
+#hero {
+    /* background: linear-gradient(var(--color-blue), var(--color-purple)); */
+    background: black;
+    background-attachment: fixed;
+    width: 100vw;
+    max-width: 100%;
+}
+
+#hero .container .row.mainrow {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    #hero {
+        min-height: 100vh;
+        padding-bottom: 5vh;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    #hero {
+        height: 100vh;
+    }
+}

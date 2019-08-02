@@ -6,27 +6,27 @@
         <title>HackHSN</title>
         <meta name="description" content="HackHSN is the first hackathon hosted by West Windsor-Plainsboro High School North.">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="page-navbar">
-            <a class="navbar-brand" href="#">HackHSN</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link px-4" href="#">Home</a>
-                    <a class="nav-item nav-link px-4" href="#aboutus">About</a>
-                    <a class="nav-item nav-link px-4" href="#details">Event Details</a>
-                    <a class="nav-item nav-link px-4" href="#schedule">Event Schedule</a>
-                    <a class="nav-item nav-link px-4" href="#faq">FAQ</a>
-                    <a class="nav-item nav-link px-4" href="#ourteam">Our Team</a>
-                    <a class="nav-item nav-link px-4" href="#contact">Contact Us</a>
-                </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="page-navbar">
+        <a class="navbar-brand" href="#">HackHSN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link px-4" href="#hero">Home</a>
+                <a class="nav-item nav-link px-4" href="#aboutus">About</a>
+                <a class="nav-item nav-link px-4" href="#details">Event Details</a>
+                <a class="nav-item nav-link px-4" href="#schedule">Event Schedule</a>
+                <a class="nav-item nav-link px-4" href="#faq">FAQ</a>
+                <a class="nav-item nav-link px-4" href="#ourteam">Our Team</a>
+                <!-- <a class="nav-item nav-link px-4" href="#sponsors">Sponsors</a> -->
+                <a class="nav-item nav-link px-4" href="#contact">Contact Us</a>
             </div>
-        </nav>
-
+        </div>
+    </nav>
+    <body data-spy="scroll" data-target="#page-navbar" data-offset="100">
         <div id="hero">
             <div class="container">
                 <div class="row mainrow">
@@ -91,7 +91,7 @@
                             <b>Who Can Attend: </b>Any high school or college student with a passion for computer science. Absolutely no prior programming experience is required.
                         </p>
                         <p class="section-descriptor">
-                            <b>Cost to Attendees: </b>This event, including food, swag, and prizes, is entirely free to attend.
+                            <b>Cost to Attendees: </b>Thanks to our wonderful sponsors, this event, including food, swag, and prizes, is entirely free to attend.
                         </p>
                         </div>
                     </div>
@@ -298,9 +298,6 @@
                     </div>
                     <div class="col-6">
                         <h5 style="color: white">© 2019 West Windsor-Plainsboro High School North</h5>
-                        <a href="https://discord.gg/N2MB2jg"><div id="joindiscord">
-                            Join Discord
-                        </div></a>
                     </div>
                 </div>
             </div>
@@ -308,5 +305,6 @@
         <script src="js/bundle.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
     </body>
 </html>

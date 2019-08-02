@@ -1,0 +1,57 @@
+#hero .content-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media only screen and (orientation: landscape) {
+    #hero .content-container h1 {
+        font-size: 5rem;
+        font-family: Monoton;
+        color: white;
+    }
+    #hero .content-container span {
+        color: white;
+        font-size: 2rem;
+        font-family: Electrolize;
+    }
+}
+
+
+
+@media only screen and (orientation: portrait) {
+    #hero .content-container h1 {
+        font-size: 4rem;
+        font-family: Monoton;
+        color: white;
+    }
+    #hero .content-container span {
+        color: white;
+        font-size: 1.5rem;
+        font-family: Electrolize;
+    }
+}
+
+
+#hero-image {
+    position: absolute;
+    left: 50%;
+
+}
+
+@media only screen and (orientation: landscape) {
+    #hero-image {
+        width: 30vw;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #hero-image {
+        width: 95vw;
+        transform: translateX(-50%);
+    }
+}

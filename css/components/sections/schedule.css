@@ -1,0 +1,23 @@
+#schedule {
+    min-height: 70vh;
+    padding-bottom: 20vh;
+    width: 100vw;
+    /* background: linear-gradient(to bottom left, var(--color-red), var(--color-orange)); */
+    /* background-size: 250% 250%; */
+    /* background-attachment: fixed; */
+    /* animation: gradientAnimation 5s infinite; */
+    background: var(--color-bluegrey);
+}
+
+#schedule h1 {
+    color: var(--color-red);
+}
+
+#schedule .container {
+    padding-top: 5vh;
+}
+
+tr {
+    color: white;
+    font-family: Work Sans;
+}

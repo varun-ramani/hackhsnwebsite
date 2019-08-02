@@ -1,0 +1,25 @@
+#details {
+    width: 100vw;
+    padding-bottom: 20vh;
+    /* background: linear-gradient(to bottom left, var(--color-purple), var(--color-red)); */
+    /* animation: gradientAnimation 5s infinite; */
+    /* background-attachment: fixed; */
+    min-height: 70vh;
+    /* background-size: 250% 250%; */
+    background: var(--color-bluegrey2);
+    text-align: justify;
+    color: white;
+}
+
+#details h1 {
+    color: var(--color-purple);
+}
+
+#details p {
+    transition: transform 0.3s;
+    transform: scale(1);
+}
+
+#details p:hover {
+    transform: scale(1.03);
+}

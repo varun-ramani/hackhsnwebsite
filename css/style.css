@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed|Electrolize|Work+Sans|Monoton&display=swap');
+@import url('./colors.css');
+@import url('./components/components.css');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}

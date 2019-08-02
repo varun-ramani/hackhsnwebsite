@@ -13,4 +13,13 @@ function updateNavbar() {
 
 document.getElementById("hero").style.paddingTop = `${navbar.offsetHeight}px`;
 
+$('#page-navbar').bind('click', 'ul li a', function(event) {
+    event.preventDefault();
+    console.log("Scrolling");
+    var location = $(event.target.hash).offset().top;
+    $('html, body').animate({
+        scrollTop: location
+    }, 500);
+});
+
 // updateNavbar();
