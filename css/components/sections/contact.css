@@ -14,3 +14,11 @@
 #contact h5 {
     color: var(--color-aqua) !important;
 }
+
+#contact p {
+    color: white;
+}
+
+#contact .contactspacer {
+    height: 2vh;
+}
