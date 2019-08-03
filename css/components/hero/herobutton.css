@@ -8,6 +8,11 @@
     transition: background-color 0.5s, border 0.5s, transform 0.5s;
     text-decoration: none;
     animation: signup-animation 10s infinite;
+    transition: transform 0.5s;
+}
+
+#hero a:hover {
+    transform: scale(1.06);
 }
 
 @keyframes signup-animation {

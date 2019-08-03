@@ -2,15 +2,15 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
     /* background: linear-gradient(to bottom left, var(--color-blue), black); */
-    background: var(--color-bluegrey2);
+    background: var(--color-bluegrey);
     background-attachment: fixed;
     width: 100vw;
 }
 
 #contact h2 {
-    color: var(--color-green) !important;
+    color: var(--color-aqua) !important;
 }
 
 #contact h5 {
-    color: var(--color-green) !important;
+    color: var(--color-aqua) !important;
 }

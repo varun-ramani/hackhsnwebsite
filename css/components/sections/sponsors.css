@@ -1,0 +1,29 @@
+#sponsors {
+    min-height: 70vh;
+    padding-bottom: 20vh;
+    width: 100vw;
+    /* background: linear-gradient(to bottom left, var(--color-red), var(--color-orange)); */
+    /* background-size: 250% 250%; */
+    /* background-attachment: fixed; */
+    /* animation: gradientAnimation 5s infinite; */
+    background: var(--color-bluegrey2);
+}
+
+#sponsors h1 {
+    color: var(--color-green);
+}
+
+#sponsors img {
+    transition: transform 0.5s;
+    margin-top: 5vh;
+}
+
+#sponsors img:hover {
+    transform: scale(1.05);
+}
+
+#sponsors p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
