@@ -19,11 +19,17 @@
 }
 
 #sponsors img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) translateY(-50%);
 }
 
 #sponsors p {
     color: white;
     text-align: center;
     font-size: 1.2rem;
+}
+
+#sponsors .img-fluid {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
