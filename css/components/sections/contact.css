@@ -9,14 +9,17 @@
 
 #contact h2 {
     color: var(--color-aqua) !important;
+    font-family: Electrolize;
 }
 
 #contact h5 {
     color: var(--color-aqua) !important;
+    font-family: Electrolize;
 }
 
 #contact p {
     color: white;
+    font-family: Montserrat;
 }
 
 #contact .contactspacer {
