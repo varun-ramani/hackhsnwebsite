@@ -1,1 +1,1 @@
-# KnightHacks Website
+# HackHSN Website
